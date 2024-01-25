@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-image: url('https://cdn.aaihs.org/wp-content/uploads/2023/08/shutterstock_517774291-scaled.jpg');
+    background-size: cover;
+    padding: 200px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+nav {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.cta {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.cta a {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
